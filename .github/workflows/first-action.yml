@@ -1,12 +1,12 @@
 name: first-actions
 
 on: 
-  worklow_dispatch:
+  workflow_dispatch:
 jobs:
   hello-world:
-  runs-on: Ubuntu-latest
-  steps:
-    -name: "Qualquer Merda"
+    runs-on: Ubuntu-latest
+    steps:
+    - name: "Qualquer Merda"
       run: |
         echo "qualquer-merda"
       
